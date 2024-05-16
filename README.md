@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+front end directory Structure 
+carpooling-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── api.js
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── LoginForm.js
+│   │   ├── RegisterForm.js
+│   │   └── UserProfile.js
+│   ├── pages/
+│   │   ├── Dashboard.js
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   └── UserProfilePage.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+└── package.json
+Backend Directory Structure
+carpool-backend/
+├── node_modules/
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   └── User.js
+├── routes/
+│   └── userRoutes.js
+├── controllers/
+│   └── userController.js
+├── config/
+│   └── config.js
+├── app.js
+├── package.json
+└── package-lock.json
+
